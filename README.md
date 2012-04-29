@@ -6,7 +6,5 @@ Quick start PHPUnit.
 
 ```
 cd Path/To/Your/Project
-git clone git://github.com/suin/phpunit-bootstrap.git Tests
-cd Tests
-./setup.sh
+git clone git://github.com/suin/phpunit-bootstrap.git Tests && cd Tests && ./setup.sh
 ```
