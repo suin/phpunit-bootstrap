@@ -39,7 +39,6 @@
 		</whitelist>
 		<blacklist>
 			<directory suffix=".php" group="PHPUNIT">../Vendor</directory>
-			<directory suffix=".php" group="PHPUNIT">Tools</directory>
 		</blacklist>
 	</filter>
 </phpunit>
