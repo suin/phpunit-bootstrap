@@ -1,10 +1,28 @@
-# phpunit-bootstrap
+# How to Test
 
-Quick start PHPUnit.
+## Installation
 
-## Usage
+Install [composer](https://github.com/composer/composer) to your ~/bin:
 
+```sh
+$ curl -s http://getcomposer.org/installer | php
 ```
-cd Path/To/Your/Project
-git clone git://github.com/suin/phpunit-bootstrap.git Tests && cd Tests && ./setup.sh
+
+Run composer and install depending packages:
+
+```sh
+$ composer.phar install
 ```
+
+## Executing Tests
+
+Run phpunit:
+
+```sh
+$ ./phpunit
+```
+
+## View Reports
+
+
+If you want to see code coverages, open Coverage/index.html.
