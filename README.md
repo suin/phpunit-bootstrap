@@ -1,28 +1,26 @@
-# How to Test
+# PHPUnit Bootstrap
+
+A distribution for quick start unit testing on PHP.
 
 ## Installation
 
-Install [composer](https://github.com/composer/composer) to your ~/bin:
+Install automatically:
 
-```sh
-$ curl -s http://getcomposer.org/installer | php
+```
+curl http://suin.org/phpunit-bootstrap.sh | sh
 ```
 
-Run composer and install depending packages:
+Install manually:
 
-```sh
-$ composer.phar install
+```
+composer.phar create-project suin/phpunit-bootstrap tests
+
+cd tests
+
+# Remove unnecessary files
+rm -rf .git README.md
+
+# Make README for test directory
+mv README.dist.md README.md
 ```
 
-## Executing Tests
-
-Run phpunit:
-
-```sh
-$ ./phpunit
-```
-
-## View Reports
-
-
-If you want to see code coverages, open Coverage/index.html.
