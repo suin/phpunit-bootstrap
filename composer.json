@@ -1,4 +1,15 @@
 {
+        "name": "suin/phpunit-bootstrap",
+        "description": "PHPUnit distribution",
+        "keywords": ["unittest", "phpunit"],
+        "homepage": "https://github.com/suin/phpunit-bootstrap",
+        "license": "MIT",
+        "authors": [
+                {
+                        "name": "Suin",
+                        "email": "suinyeze@gmail.com"
+                }
+        ],
 	"config": {
 		"bin-dir": ".",
 		"vendor-dir": "Vendor"
